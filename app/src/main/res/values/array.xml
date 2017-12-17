@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gluxner">
+        <item>ԾՆՆԴՈՑ</item>
+        <item>ԵԼԻՑ</item>
+        <item>ՂԵՒՏԱՑՈՑ</item>
+        <item>ԹՎՈՑ</item>
+        <item>ԵՐԿՐՈՐԴ ՕՐԻՆԱՑ</item>
+        <item>ՀԵՍՈՒ</item>
+        <item>ԴԱՏԱՎՈՐԱՑ</item>
+        <item>ՀՌՈՒԹ</item>
+        <item>Ա ԹԱԳԱՎՈՐԱՑ</item>
+        <item>Բ ԹԱԳԱՎՈՐԱՑ</item>
+        <item>Գ ԹԱԳԱՎՈՐԱՑ</item>
+        <item>Դ ԹԱԳԱՎՈՐԱՑ</item>
+        <item>Ա ՄՆԱՑՈՐԴԱՑ</item>
+        <item>Բ ՄՆԱՑՈՐԴԱՑ</item>
+        <item>ԵԶՐԱՍ</item>
+        <item>ՆԵԵՄԻԱ</item>
+        <item>ԵՍԹԵՐ</item>
+        <item>Դավանենք</item>
+        <item>ՅՈԲ</item>
+        <item>ՍԱՂՄՈՍ</item>
+        <item>ԱՌԱԿԱՑ</item>
+        <item>ԺՈՂՈՎՈՂ</item>
+        <item>ԵՐԳ ԵՐԳՈՑ</item>
+        <item>ԵՍԱՅԻԱ</item>
+        <item>ԵՐԵՄԻԱ</item>
+        <item>ՈՂԲ ԵՐԵՄԻԱՅԻ</item>
+        <item>ԵԶԵԿԻԵԼ</item>
+        <item>ԴԱՆԻԵԼ</item>
+        <item>ՈՎՍԵ</item>
+        <item>ՀՈՎԵԼ</item>
+        <item>ԱՄՈՎՍ</item>
+        <item>ԱԲԴԻԱ</item>
+        <item>ՀՈՎՆԱՆ</item>
+        <item>ՄԻՔԻԱ</item>
+        <item>ՆԱՈՒՄ</item>
+        <item>ԱՄԲԱԿՈՒՄ</item>
+        <item>ՍՈՓՈՆԻԱ</item>
+        <item>ԱՆԳԵ</item>
+        <item>ԶԱՔԱՐԻԱ</item>
+        <item>ՄԱՂԱՔԻԱ</item>
+        <item>ՄԱՏԹԵՈՍ</item>
+        <item>ՄԱՐԿՈՍ</item>
+        <item>ՂՈՒԿԱՍ</item>
+        <item>ՀՈՎՀԱՆՆԵՍ</item>
+        <item>ԳՈՐԾՔ ԱՌԱՔԵԼՈՑ</item>
+        <item>ՀՌՈՎՄԵԱՑԻՍ</item>
+        <item>Ա ԿՈՐՆԹԱՑԻՍ</item>
+        <item>Բ ԿՈՐՆԹԱՑԻՍ</item>
+        <item>ԳԱՂԱՏԱՑԻՍ</item>
+        <item>ԵՓԵՍԱՑԻՍ</item>
+        <item>ՓԻԼԻՊՊԵՑԻՍ</item>
+        <item>ԿՈՂՈՍԱՑԻՍ</item>
+        <item>Ա ԹԵՍԱՂՈՆԻԿԵՑԻՍ</item>
+        <item>Բ ԹԵՍԱՂՈՆԻԿԵՑԻՍ</item>
+        <item>Ա ՏԻՄՈԹԵՈՍ</item>
+        <item>Բ ՏԻՄՈԹԵՈՍ</item>
+        <item>ՏԻՏՈՍ</item>
+        <item>ՓԻԼԷՄՈՆ</item>
+        <item>ԵԲՐԱՅԵՑԻՍ</item>
+        <item>ՀԱԿՈԲՈՍ</item>
+        <item>Ա ՊԵՏՐՈՍ</item>
+        <item>Բ ՊԵՏՐՈՍ</item>
+        <item>Ա ՀՈՎՀԱՆՆԵՍ</item>
+        <item>Բ ՀՈՎՀԱՆՆԵՍ</item>
+        <item>Գ ՀՈՎՀԱՆՆԵՍ</item>
+        <item>ՀՈՒԴԱ</item>
+        <item>ՀԱՅՏՆՈՒԹՅՈՒՆ</item>
+    </string-array>
+</resources>
