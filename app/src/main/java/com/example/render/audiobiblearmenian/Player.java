@@ -2,7 +2,10 @@ package com.example.render.audiobiblearmenian;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
+
+import java.lang.reflect.Field;
 
 public class Player extends AppCompatActivity {
 
@@ -16,5 +19,10 @@ public class Player extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(glux);
-    }
+
+      //  Field[] fields=R.raw.class.getFields();
+       // double aa = fields.length;
+
+        }
+
 }

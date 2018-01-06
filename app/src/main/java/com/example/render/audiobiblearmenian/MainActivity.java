@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         gluxner_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
                 Intent intent = new Intent(MainActivity.this, Player.class);
                 intent.putExtra("glux", gluxner_list.getItemAtPosition(i).toString());
                 startActivity(intent);

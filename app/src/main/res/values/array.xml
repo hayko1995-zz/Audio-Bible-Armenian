@@ -69,4 +69,75 @@
         <item>ՀՈՒԴԱ</item>
         <item>ՀԱՅՏՆՈՒԹՅՈՒՆ</item>
     </string-array>
+    <string-array name="erger">
+        <item>TSNNDOC</item>
+        <item>ELIC</item>
+        <item>XEVTACOC</item>
+        <item>TVOC</item>
+        <item>ERKRORD_ORINAC</item>
+        <item>HESU</item>
+        <item>DATAVORAC</item>
+        <item>HRUT</item>
+        <item>A_TAGAVORAC</item>
+        <item>B_TAGAVORAC</item>
+        <item>G_TAGAVORAC</item>
+        <item>D_TAGAVORAC</item>
+        <item>A_MNACORDAC</item>
+        <item>B_MNACORDAC</item>
+        <item>EZRAS</item>
+        <item>NEMIA</item>
+        <item>ESTER</item>
+        <item>DAVANENQ</item>
+        <item>YUB</item>
+        <item>SAXMOS</item>
+        <item>ARAKAC</item>
+        <item>JOXOVOX</item>
+        <item>ERG_ERGOC</item>
+        <item>ESIA</item>
+        <item>EREMIA</item>
+        <item>VOXB_EREMIAYI</item>
+        <item>EZEKIEL</item>
+        <item>DANIEL</item>
+        <item>WVSE</item>
+        <item>HOVEL</item>
+        <item>AMWVS</item>
+        <item>ABDIA</item>
+        <item>HOVNAN</item>
+        <item>MIQIA</item>
+        <item>NAUM</item>
+        <item>ASMAKUM</item>
+        <item>SOPONIA</item>
+        <item>ANGE</item>
+        <item>ZAQARIA</item>
+        <item>MAXAQIA</item>
+        <item>MATEVOS</item>
+        <item>MARKOS</item>
+        <item>XUKAS</item>
+        <item>HOVHANES</item>
+        <item>GORCQ_ARAQELOC</item>
+        <item>HRWMIACIS</item>
+        <item>A_KORNTACIS</item>
+        <item>B_KORNTACIS</item>
+        <item>GAXATACIS</item>
+        <item>EPESACIA</item>
+        <item>PILIPECIS</item>
+        <item>KOXOTACIS</item>
+        <item>A_TASAXONIKECIS</item>
+        <item>B_TASAXONIKECIS</item>
+        <item>A_TIMOTEOS</item>
+        <item>B_TIMOTEOS</item>
+        <item>TITOS</item>
+        <item>PILEMON</item>
+        <item>EBRAECIS</item>
+        <item>HAKOBOS</item>
+        <item>A_PETROS</item>
+        <item>B_PETROS</item>
+        <item>A_HOVHANES</item>
+        <item>B_HOVHANES</item>
+        <item>G_HOVHANES</item>
+        <item>HUDA</item>
+        <item>HAYTNUTYUN</item>
+
+    </string-array>
+
 </resources>
