@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
         final ListView gluxner_list = (ListView) findViewById(R.id.list_item);
         final String[] gluxner_arr = getResources().getStringArray(R.array.gluxner);
+        final String[] erger = getResources().getStringArray(R.array.erger);
+        final String[] cucak = getResources().getStringArray(R.array.cucak);
 
         // создаем адаптер
         adapter = new ArrayAdapter<>(
@@ -47,12 +50,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         gluxner_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
                 Intent intent = new Intent(MainActivity.this, Player.class);
                 intent.putExtra("glux", gluxner_list.getItemAtPosition(i).toString());
+                intent.putExtra("erg", erger[i].toString());
+                intent.putExtra("cucak", cucak[i].toString());
                 startActivity(intent);
             }});
 
@@ -61,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
 
 
     @Override

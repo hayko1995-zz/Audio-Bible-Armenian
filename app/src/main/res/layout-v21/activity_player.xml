@@ -8,55 +8,74 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="104dp"
-        android:background="?android:attr/colorEdgeEffect"
+        android:layout_height="match_parent"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="@string/glxi_anun"
-            android:textAlignment="center"
-            android:textColor="@android:color/background_light"
-            android:textSize="25sp"
-            android:theme="@style/AppTheme" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
+            android:layout_height="90dp"
+            android:background="#3F51B5"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="?android:attr/colorEdgeEffect"
-                android:contentDescription="@string/prew"
-                app:srcCompat="@android:drawable/ic_media_previous" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/glxi_anun"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:theme="@style/AppTheme.NoActionBar" />
 
-            <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="?android:attr/colorEdgeEffect"
-                android:contentDescription="@string/play"
-                app:srcCompat="@android:drawable/ic_media_play" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent">
 
-            <ImageButton
-                android:id="@+id/imageButton4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="?android:attr/colorEdgeEffect"
-                android:contentDescription="@string/next"
-                app:srcCompat="@android:drawable/ic_media_next" />
+                <ImageButton
+                    android:id="@+id/prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#3F51B5"
+                    android:contentDescription="@string/prew"
+                    app:srcCompat="@android:drawable/ic_media_previous" />
+
+                <ImageButton
+
+                    android:id="@+id/play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#3F51B5"
+                    android:contentDescription="@string/play"
+                    app:srcCompat="@android:drawable/ic_media_play" />
+
+                <ImageButton
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#3F51B5"
+                    android:contentDescription="@string/next"
+                    app:srcCompat="@android:drawable/ic_media_next" />
+            </LinearLayout>
+
         </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
 
 
